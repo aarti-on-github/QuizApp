@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+html{
+  font-size: 65.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom,#b81ad3, #ffd745);
+    height:100vh;
+    width:100%;
+    font-family:'Varela Round', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+ .quiz-container{
+    background:linear-gradient(to right,#c19898, #edd3d3a8);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.2rem rgba(100,100,100,0.1);
+    width:37rem;
+    overflow:hidden;
+  }
+  .quiz-header{
+    padding: 4rem;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  font-weight:bold;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color: bisque;
+  color: #b81ad3;
+  width: 100%;
+  border: none;
+  /* display: block; */
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  font-weight: bold;
+
+}
+button:hover{
+  background-color: rgba(182, 115, 182, 0.684);
+}
+button:focus{
+  outline: none;
+  background-color: rgba(1, 238, 80, 0.679);
+}
+a{
+  text-decoration: none;
+}
+.heading{
+    font-size: 3.5rem;
+    padding: 0rem;
+    color: #63166c;
+}
+@media( max-width:998px){
+  html{
+      font-size: 55%;
+  }
+}
+@media(max-width:768px){
+  html{
+      font-size: 45%;
+  }
+}
